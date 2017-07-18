@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #4d4d4d;
+}
+#fondo{
+	background-color: #dedede;
+	height: 650px;
+	padding: 0;
+}
+#franja{
+	background-color: #009b8b;
+	height: 100px;
+	width: 100%;
+}
+/* contenedor de wsp*/
+#contenedor{
+	background-color: red;
+	height: 530px;
+	position: relative;
+	bottom: 70px;
+	padding: 0;
+}
+/* primer parte*/
+#primeraParte{
+	padding-right: 0;
+}
+/* primera parte interior wsp*/
+#perfil-primeraParte{
+	width: 100%;
+	background-color: #eeeeee;
+	height: 60px;
+	border: 1px solid #d9d9d9;
+}
+.fa-address-card{
+	padding-right: 17px;
+}
+#foto-perfil{
+	width: 39px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 11px;
+}
+#conten-icon-perfil{
+	position: relative;
+	left: 80%;
+	bottom: 35px;
+}
+/* busqueda primera parte*/
+#div-busqueda{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	padding: 5px;
+	border-right: 2px solid #ededed;
+}
+#contenedor-busqueda{
+	border: 1px solid #ededed;
+	border-radius: 5px;
+	padding: 4px;
+	width: 93%;
+	margin-left: 9px;
+}
+#input-busqueda{
+	border-style: none;
+	width: 79%;
+	padding-left: 9px;
+}
+/* contactos*/
+.contactos{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	border-top: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	margin:0;
+}
+#img-laboratoria{
+	width: 45px;
+	height: 58px;
+}
+.contactos img{
+	width: 45px;
+	border-radius: 50%;
+	margin-top: 7px;
+	margin-left: 7px;
+	padding: 0;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.contactos h5{
+	font-weight: bold;
+	margin-bottom: 0;
+	font-size: 16px;
+	padding: 0;
+}
+
+/* segunda parte*/
+#segundaParte{
+	background-color: white;
+	height: 530px;
+	padding: 0;
+	margin: 0;
+}
+#converzacion-contacto{
+	height: 68px;
+	width: 96.7%;
+	background-color: #eeeeee;
+	border: 1px solid #d9d9d9;
+	margin-left: 14px;
+}
+#nombre-converzacion{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.foto-info{
+	padding: 0;
+}
+.info{
+	padding: 0;
+	padding-left: 10px;
+}
+.icons-info{
+	padding: 0;
+	margin-top:20px;
+	padding-left: 25px;
+}
+.icons-info i{
+	padding-right: 26px;
+}
+#foto-segundaParte{
+	width: 45px;
+	border-radius: 50%;
+	height: 45px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#chat{
+	background-image: url(../image/chat-panel-bg.png);
+	background-size: cover;
+	height: 410px;
+	background-color: #ede9e3;
+}
+#envio-mensajes{
+	background-color: #f2f0ed;
+	height: 52px;
+	border: 1px solid #d9d9d9;
+	padding: 9px; 
+}
+#envio-mensajes i{
+	margin-left: 15px;
+}
+#envio-mensajes input{
+	width: 88%;
+	border-style: none;
+	margin-left: 15px;
+	padding: 5px;
+	border-radius: 4px;
+}
+/*#acomu-msj{
+	display: flex;
+	justify-content: flex-start;
+}
+/* MENSAJE*/
+#mensaje{
+	background-color: #d3ffc2;
+	padding: 19px;
+	position: right;
+	border-radius: 7px;
+	width: 200px;
+	height: auto;
+	margin-bottom:10px;
+}
+
+/* iconos */
+.fa{
+	font-size: 25px;
+	color: #767676;
+}
+p{
+	font-weight: bold;
+	color: #7e7e7e;
+	margin-bottom:0;
+}
